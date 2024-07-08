@@ -335,10 +335,10 @@ main {
 }
 
 .people-card {
-  height: 924px;
   padding-top: 80px;
   padding-bottom: 80px;
-  background: #fafbfc;
+  background: #FAFBFC;
+  margin-bottom: 30px;
 }
 
 .people-card > .people-card-header {
@@ -402,6 +402,38 @@ main {
   margin: 0px;
 }
 
+.success-stories-wrapper {
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+}
+
+.success-stories-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.success-story-card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.success-story-card > img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.success-story-card > span {
+  color: black;
+  font-weight: 600;
+  padding: 5px;
+}
+
 @media screen and (max-width: 1024px) {
 }
 
@@ -409,10 +441,39 @@ main {
   .people-card-wrapper > div {
     width: 36%;
   }
+
+  .success-stories-wrapper {
+    padding: 30px;
+  }
+
+  .success-stories-card-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .success-story-card {
+    width: 100%;
+    margin-top: 20px;
+  }
+
 }
 
 @media screen and (max-width: 425px) {
   .people-card-wrapper > div {
     width: 80%;
+  }
+
+  .success-stories-wrapper {
+    padding: 30px;
+  }
+
+  .success-stories-card-wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .success-story-card {
+    width: 100%;
+    margin-top: 20px;
   }
 }
