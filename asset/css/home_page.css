@@ -6,6 +6,7 @@ main {
   width: 100%;
   height: 100vh;
   position: relative;
+  padding: 20px 20px;
 
   background: linear-gradient(
     to right,
@@ -25,7 +26,7 @@ main {
   .text_box {
     display: flex;
     flex: 1;
-    padding: 0 0 0 170px;
+    /* padding: 0 0 0 170px; */
     /* border:1px solid red; */
     justify-content: center;
     align-items: flex-start;
@@ -252,8 +253,7 @@ main {
 .expertise_background {
   display: flex;
   background: linear-gradient(to left, #091e42, #1251ae);
-  width: 1440px;
-  height: 1294px;
+  width: 100%;
   padding: 60px, 0px, 60px, 0px;
   /* flex-wrap: wrap; */
   justify-content: space-around;
@@ -263,8 +263,6 @@ main {
     align-items: center;
     justify-content: center;
     margin-top: 25px;
-    width: 1240px;
-    height: 1174px;
     text-align: center;
   }
   .expertise_section {
@@ -272,8 +270,6 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 1240px;
-    height: 1174px;
     padding: 40px, 85px, 40px, 85px;
     .round_card_container {
       display: flex;
