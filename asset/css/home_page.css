@@ -314,3 +314,105 @@ main {
 .impact_head {
   margin-top: 150px;
 }
+
+.header-title {
+  font-size: 52px;
+  background: linear-gradient(
+    to right,
+    var(--welcome_text_dark),
+    var(--welcome_text_light)
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.header-sub-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #667085;
+  text-align: center;
+}
+
+.people-card {
+  height: 924px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #fafbfc;
+}
+
+.people-card > .people-card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.people-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.people-card-wrapper > div {
+  width: 18%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  max-height: 310px;
+  box-shadow: 1px 1px 5px gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.people-card-wrapper > div > img {
+  width: 100%;
+  height: 215px;
+  object-fit: fill;
+}
+
+.card-footer {
+  padding: 10px;
+}
+
+.card-divider {
+  height: 5px;
+  background: linear-gradient(
+    to right,
+    var(--welcome_text_dark),
+    var(--welcome_text_light)
+  );
+  padding: 0px;
+}
+
+.people-card-wrapper > div > div > span {
+  font-size: 20px;
+  font-weight: 600;
+}
+.people-card-wrapper > div > div > p {
+  font-size: 18px;
+  color: gray;
+  margin: 0px;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .people-card-wrapper > div {
+    width: 36%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .people-card-wrapper > div {
+    width: 80%;
+  }
+}
