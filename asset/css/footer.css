@@ -1,0 +1,108 @@
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #0f3063;
+  color: white;
+  padding: 40px 20px 0 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo img {
+  max-height: 50px; /* Adjust the height as needed */
+}
+
+.contact-info {
+  margin-top: 20px; /* Space between the logo and contact info */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0; /* Space between each contact info item */
+  gap: 10px;
+}
+
+.contact-item i {
+  margin-right: 10px; /* Space between icon and text */
+}
+
+.social-media-icons {
+  margin-top: 20px; /* Space between contact info and social media icons */
+}
+
+.social-media-icons a {
+  margin-right: 15px; /* Space between each icon */
+}
+
+.social-media-icons img {
+  height: 48px; /* Adjust size as needed */
+}
+
+.footer-right {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-columns ul {
+  margin: 0 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-columns ul h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-columns ul li {
+  margin: 5px 0;
+}
+
+.footer-bottom {
+  background-color: #091e42;
+  color: white;
+  text-align: left;
+  padding: 10px 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  width: 100%;
+}
+
+.footer-bottom p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer-bottom {
+  font-size: 16px;
+  font-weight: 400;
+}
