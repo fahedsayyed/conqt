@@ -4,3 +4,36 @@
 
 @import url(footer.css);
 @import url(responsive.css);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+button,
+span {
+  font-family: Inter;
+}
+h1 {
+  font-size: clamp(32px, 4.1667vw + 18px, 52px) !important;
+}
+h2 {
+  font-size: clamp(24px, 3.0556vw + 16px, 44px) !important;
+}
+h3 {
+  font-size: clamp(18px, 2.2222vw + 15.5556px, 32px) !important;
+}
+h4 {
+  font-size: clamp(16px, 1.3889vw + 18px, 24px) !important;
+}
+h5 {
+  font-size: clamp(14px, 1.1111vw + 17.3333px, 20px) !important;
+}
+h6 {
+  font-size: clamp(12px, 1.1111vw + 16px, 18px) !important;
+}
+p {
+  font-size: clamp(14px, 1.1111vw + 14px, 16px) !important;
+}
