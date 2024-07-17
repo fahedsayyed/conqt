@@ -5,7 +5,7 @@
 @import url(footer.css);
 @import url(responsive.css);
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -36,4 +36,4 @@ h6 {
 }
 p {
   font-size: clamp(14px, 1.1111vw + 14px, 16px) !important;
-}
+} */

@@ -1,88 +1,71 @@
-@media only screen and (max-width:992px) 
-{   
-  
-    header,.leader_section
-    {
-        padding-inline: 30px;
-        
+@media only screen and (max-width: 992px) {
+  header,
+  .leader_section {
+    padding-inline: 30px;
+  }
+  .landing_page {
+    .text_box {
+      padding: 30px;
     }
-    .landing_page
-    {
-        
-
-         .text_box 
-         {
-            padding: 30px;
-            
-         }
-         .image_box
-         {
-            .landing_vactor,.landing_image
-            {
-                width: 80%;
-            }
-            .landing_image
-            {
-                left: 5px;
-                width: 90%;
-            }
-
-        }
+    .image_box {
+      .landing_vactor,
+      .landing_image {
+        width: 80%;
+      }
+      .landing_image {
+        left: 5px;
+        width: 90%;
+      }
     }
+  }
 }
 
-@media only screen and (max-width:768px) 
-{
-      nav 
-    {
-        display: none !important;
-    }
-    header,.leader_section
-    {
-        padding-inline: 15px;
-        
-    }
-       .landing_page
-    {
-        flex-direction: column;
+@media only screen and (max-width: 768px) {
+  nav {
+    display: none !important;
+  }
+  header,
+  .leader_section {
+    padding-inline: 15px;
+  }
+  .landing_page {
+    flex-direction: column;
 
-         .text_box 
-         {
-            padding: 0px;
-            
-         }
-         .image_box
-         {
-            .landing_vactor,.landing_image
-            {
-                width: 60%;
-            }
-         }
+    .text_box {
+      padding: 0px;
     }
-    .impact_text_container
-    {
-        .impact_head
-        {
-            & P 
-            {
-                padding-right: 0px;
-                
-            }
-        }
+    .image_box {
+      .landing_vactor,
+      .landing_image {
+        width: 60%;
+      }
     }
-    .global_presence
-    {
-        .global_presence_info
-        {   
-            & h1 
-            {
-                text-align: center;
-            }
-            & p 
-            {
-                padding-inline: 10vw ;
-                
-            }
-        }
+  }
+  .impact_text_container {
+    .impact_head {
+      & P {
+        padding-right: 0px;
+      }
     }
+  }
+  .global_presence {
+    .global_presence_info {
+      & h1 {
+        text-align: center;
+      }
+      & p {
+        padding-inline: 10vw;
+      }
+    }
+  }
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  max-width: 100% !important;
+  padding: 5% !important;
 }

@@ -1,9 +1,9 @@
 let SwiperTop = new Swiper(".leader_logo", {
   spaceBetween: 0,
   centeredSlides: true,
-  speed: 3000,
+  speed: 1000,
   autoplay: {
-    delay: 1,
+    delay: 0.8,
   },
   loop: true,
   //   slidesPerView: "auto",
@@ -12,13 +12,13 @@ let SwiperTop = new Swiper(".leader_logo", {
   disableOnInteraction: true,
   breakpoints: {
     480: {
-      slidesPerView: 3
+      slidesPerView: 3,
     },
     768: {
-      slidesPerView: 4
+      slidesPerView: 4,
     },
     992: {
-      slidesPerView: 6
-    }
-  }
+      slidesPerView: 6,
+    },
+  },
 });

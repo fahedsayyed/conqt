@@ -7,11 +7,11 @@
 
 body,
 html {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 header {
   width: 100%;
-  height: 12vh;
+  height: 10vh;
   padding-inline: 60px;
   position: fixed;
   z-index: 99;
@@ -19,7 +19,7 @@ header {
   display: flex;
   /* justify-content: ; */
   /* border: 1px solid red; */
-  box-shadow: 0 2px 15px rgba(134, 134, 134,0.1);
+  box-shadow: 0 2px 15px rgba(134, 134, 134, 0.1);
 
   & nav {
     /* border: 1px solid red; */
@@ -30,6 +30,8 @@ header {
       gap: 20px;
       align-items: flex-end;
       list-style: none;
+      margin-bottom: 0px !important;
+
       & li {
         /* border: 1px solid red; */
         padding: 0 24px;
@@ -41,15 +43,16 @@ header {
         border-top-right-radius: 8px;
         transition: 0.5s;
 
-        &:hover
-        {
-            background-color: var(--nav_text_hover);
+        &:hover {
+          background-color: var(--nav_text_hover);
         }
         & a {
           text-decoration: none;
           font-weight: 600;
           font-size: 16px;
           color: #232932;
+          display: flex;
+          text-wrap: nowrap;
 
           .drop_arrow {
             color: var(--primary);
@@ -80,5 +83,6 @@ nav,
   flex: 1;
   height: 100%;
   display: flex;
+
   align-items: center;
 }
